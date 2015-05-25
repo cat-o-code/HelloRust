@@ -1,5 +1,5 @@
 [package]
 
-name = "helloRust"
+name = "HelloRust"
 version = "0.0.1"
 authors = [ "Your name <m4xpaw@gmail.com>" ]
