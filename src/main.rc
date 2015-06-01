@@ -1,3 +1,11 @@
+use std::io;
+
 fn main() {
-    println!("Hello, world!");
+    println!("INPUT:");
+    let mut reader = io::stdin();
+
+    let input = reader.read_line().ok().expect("Failed to read line");
+
+    println!("YOU TYPED:");
+    println!("{:s}", input);
 }
