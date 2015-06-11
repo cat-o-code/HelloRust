@@ -25,7 +25,7 @@ fn readnumber(message: &'static str) -> (f64,bool){
 	return (0.0,false);
 }
 
-fn main() {
+fn calculator() {
 	let mut number1 = readnumber("Please input 1st number");
 	let mut number2 = readnumber("Please input 2nd number");
 
@@ -39,4 +39,11 @@ fn main() {
 	}
 
 	pressanykey();
+}
+
+fn main() {
+//	calculator();
+	
+
+
 }
